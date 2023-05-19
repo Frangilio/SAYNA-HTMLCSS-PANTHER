@@ -32,9 +32,14 @@ h1 {
     margin-top: 125px;
 }
 
+h2 {
+    font-family: "BEYNO";
+    font-size: 18px;
+}
+
 p {
     font-family: "Cantarell";
-    font-size: 14px;
+    font-size: 12px;
     font-weight: normal;
 }
 
@@ -130,10 +135,6 @@ nav ul a:hover {
     font-family: "Cantarell";
 }
 
-/* #panther .container .content a {
-    
-} */
-
 .image-panther {
     flex-basis: 51%;
     height: 500px;
@@ -147,44 +148,83 @@ nav ul a:hover {
 
 /* Design Carrousel */
 
-#carrousel .contenaire {
+#carrousel {
     background-color: #07338c46;
     display: flex;
-    flex-direction: row;
-    margin: 0 0 0 150px;
+    margin-bottom: 20px;
+    margin-left: 150px;
     column-gap: 20px;
+    height: 250px;
 }
 
-#carrousel .contenaire .item {
-    display: flex;
-    flex-direction: row;
-    opacity: none;
-    flex-basis: 40%;
-}
-
-/* #carrousel .contenaire .item  .image-carrousel {
-    
-} */
-
-#carrousel .contenaire .item  .image-carrousel img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-#carrousel .contenaire .item .description {   
-    margin-top: 50px;
+.image-carrousel-active {
+    margin-top: -35px;
     margin-left: 30px;
-    width: 90%;
 }
 
-#carrousel .contenaire .item h2 {
+.description {
+    margin-top: 30px;
+    flex-basis: 30%;
+}
+
+.image-carousel {
+    max-width: 100%;
+    max-height: auto;
+}
+
+#carrousel h2 {
     font-family: "BEYNO";
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-#carrousel .contenaire .item .description p {
+#carrousel p {
     text-align: justify;
     margin-bottom: 10px;
 }
+
+/* Design Civil T'Challa */
+
+#civil {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 200px auto 0 auto;
+}
+
+#civil h2 {
+    margin-top: 25px;
+    color: #9E91B7;
+}
+
+#civil p {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+#civil ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: '-';
+}
+
+.civil {
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+}
+
+.tchat {
+    background-color: white; 
+    margin-top: 250px; 
+    height: 500px; 
+    border-radius: 10px;
+}
+
+.image-civil img {
+    margin-top: -300px;
+    height: auto;
+}
+
 
