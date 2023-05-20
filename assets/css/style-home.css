@@ -74,13 +74,6 @@ nav {
     padding: 30px 0;
 }
 
-/* .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-right: 0;
-} */
-
 ul {
     display: flex;
     flex-direction: row;
@@ -88,10 +81,6 @@ ul {
     list-style: none;
     column-gap: 60px;
 }
-
-/* .container ul li {
-    grid-column: 10px;
-} */
 
 nav ul a {
     color: white;
@@ -212,19 +201,107 @@ nav ul a:hover {
 .civil {
     display: flex;
     flex-direction: row;
-    column-gap: 100px;
+    column-gap: 160px;
 }
 
 .tchat {
     background-color: white; 
-    margin-top: 250px; 
-    height: 500px; 
+    margin-top: 200px; 
+    padding: 0 30px;
+    width: 180%;
+    height: 550px; 
     border-radius: 10px;
 }
 
 .image-civil img {
-    margin-top: -300px;
+    max-width: 100%;
+    margin-top: -220px;
     height: auto;
 }
 
 
+/* Design Hero */
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    column-gap: 70px;
+}
+
+.image-hero {
+    width: 250%;
+    margin-top: 40px;
+}
+
+.image-hero img {
+    max-width: 100%;
+}
+
+/* Formulaire de contact */
+
+#contact {
+    background-image: url("../accueil/Pantherhome7.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.contact {
+    background: linear-gradient(180deg, white, transparent);
+    color: #021740;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 350px;
+    padding-top: 50px;
+    width: 50%;
+    border-radius: 130px;
+    height: 600px;
+}
+
+.contact h2 {
+    font-family: "Cantarell";
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaire input[type="text"] {
+    border-radius: 38px;
+    border: solid 1px #021740;
+    background-color: transparent;
+    width: 520px;
+    height: 56px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.formulaire textarea {
+    border-radius: 38px;
+    border: solid 1px #021740;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.formulaire input[type="submit"] {
+    background-color: #F2CEF2;
+    margin-top: 20px;
+    margin-left: 175px;
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+}
+
+/* Design Footer */
+
+footer {
+    background-image: url(../all-pages/back_footer.png);
+}
