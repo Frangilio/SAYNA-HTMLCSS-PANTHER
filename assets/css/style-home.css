@@ -64,14 +64,69 @@ body {
     color: white;
 }
 
+/* Design scroll */
+
+.scroll {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    left: 40px;
+    top: 0;
+}
+
+.bar-left {  
+    height: 450px;
+    border-left: solid 3px #9E91B7;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.bar-right {
+    height: 288px;
+    border-left: solid 3px #9E91B7;
+}
+
+.reseaux-sociaux {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    transform: scale(0.8);
+}
+
+.scroll img:hover {
+    -webkit-filter: invert(80%) sepia(0%) saturate(7459%) hue-rotate(228deg) brightness(105%) contrast(101%);
+    filter: invert(80%) sepia(0%) saturate(7459%) hue-rotate(228deg) brightness(105%) contrast(101%);
+}
+
 
 /* Design de la navigation */
+
+.container1 {
+    width: 85%;
+    margin: 0 auto;
+}
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px 0;
+}
+
+nav img {
+    transform: scale(0.8);
+}
+
+nav img:hover {
+    -webkit-filter: invert(70%) sepia(87%) saturate(3034%) hue-rotate(245deg) brightness(95%) contrast(93%);
+    filter: invert(70%) sepia(87%) saturate(3034%) hue-rotate(245deg) brightness(95%) contrast(93%);
 }
 
 ul {
@@ -90,7 +145,14 @@ nav ul a {
     text-decoration: none;
 }
 
+.active {
+    color: #9E91B7;
+    padding-bottom: 4px;
+    border-bottom: solid 2px #9E91B7;
+}
+
 nav ul a:hover {
+    color: white;
     padding-bottom: 4px;
     border-bottom: solid 2px white;
 }
@@ -300,8 +362,92 @@ nav ul a:hover {
     border-radius: 38px;
 }
 
+.formulaire input[type="submit"]:hover {
+    filter: drop-shadow(0 0 20px  #021740);
+}
+
 /* Design Footer */
 
 footer {
     background-image: url(../all-pages/back_footer.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
+
+.pied-de-page {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 300px;
+    width: 80%;
+    height: 800px;
+}
+
+.logo-marveil {
+    align-items: center;
+}
+
+.img-footer1 {
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1);
+    margin-top: 20px;
+}
+
+.img-marveil {
+    position: relative;
+    top: 50%;
+}
+
+.contact-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 50px;
+    margin-top: -100px;
+    width: 500px;
+}
+
+.pages a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.apropos {
+    margin-top: 30px;
+}
+
+.social-footer img {
+    margin-top: 30px;
+    margin-left: 4px;
+    transform: scale(0.7);
+}
+
+.contact-social h2 {
+    font-family: "Cantarell";
+    font-size: 22px;
+    letter-spacing: 28%;
+}
+
+.droit {
+    margin-top: 100px;
+}
+
+.droit li::before {
+    content: "\2022";
+    color: #DF99F2;
+    font-size: 20px;
+}
+
+.droit ul {
+    column-gap: 4px;
+}
+
+
+
+
