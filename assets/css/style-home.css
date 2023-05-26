@@ -267,10 +267,11 @@ nav ul a:hover {
 
 .tchat {
     background-color: white; 
+    color: black;
     margin-top: 200px; 
     padding: 0 30px;
     width: 180%;
-    height: 550px; 
+    height: 600px; 
     border-radius: 10px;
 }
 
@@ -278,6 +279,28 @@ nav ul a:hover {
     max-width: 100%;
     margin-top: -220px;
     height: auto;
+}
+
+.tchat h3 {
+    font-family: "Cantarell";
+    text-align: center;
+}
+
+.btn-tchat {
+    background-color: #3D2DA6;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 5px 7px;
+    margin-top: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.tchat-description span {
+    font-weight: bold;
+}
+.tchat-description p {
+    margin-top: 0;
 }
 
 
