@@ -476,6 +476,13 @@ footer {
     justify-content: space-between;
 }
 
+.ulfooter li::before {
+    content: "🟣";
+    color: #F2CEF2;
+    margin-right: 10px;
+    height: 20px;
+}
+
 
 
 
