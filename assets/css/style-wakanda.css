@@ -97,14 +97,12 @@ nav ul a {
 
 .active {
     color: #9E91B7;
-    padding-bottom: 4px;
-    border-bottom: solid 2px #9E91B7;
+    border-bottom: solid 1px #9E91B7;
 }
 
 nav ul a:hover {
     color: white;
-    padding-bottom: 4px;
-    border-bottom: solid 2px white;
+    border-bottom: solid 1px white;
 }
 
 
@@ -252,6 +250,11 @@ footer {
     margin-top: 150px;
     margin-bottom:100px;
  }
+
+ .soulignement:hover {
+    color: white;
+    border-bottom: solid 1px white;
+}
 
  .footermenu a {
     text-decoration: none;
